@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+@media (max-width: 540px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+img{
+  object-fit: scale-down;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  background-color:saddlebrown;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:whitesmoke;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color:whitesmoke ;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+p {
+  font-size: small;
+  padding: 10px;
+}
+
+
+.container {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.card{
+  background-color:rgb(1 1 1 / 25%);
+  padding: 30px;
+  box-shadow: 30px 30px 30px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 45px, solid, #161925;
+}
+
+.btn-green{
+  background-color: #73A580;
+  background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+  padding: 13px 13px;
+  font-weight: 400;
+  border-radius: 15px;
+  text-decoration: none;
+  color:#BC5C79;
+}
+
+.btn-green:hover{
+  color: whitesmoke;
+  background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+}
+
+ul{
+padding: 0px;
+text-align: center;
+}
+
+.social-favicon{
+display: inline;
+font-size: 45px;
+letter-spacing: 30px;
+color: #161925;
+padding: 15px;
+}
+
+i {
+color: whitesmoke;
+}
+
+i:hover{
+color:#FCD155;
+}
